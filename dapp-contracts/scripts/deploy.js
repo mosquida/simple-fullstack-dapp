@@ -7,7 +7,7 @@
 const hre = require("hardhat");
 
 async function main() {
-  const Message = hre.ethers.getContractFactory("Message");
+  const Message = await hre.ethers.getContractFactory("Message");
   const message = await Message.deploy("First Message");
 
   await message.deployed();
