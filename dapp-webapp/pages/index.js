@@ -3,7 +3,9 @@ import { ethers } from "ethers";
 
 import Message from "../../dapp-contracts/artifacts/contracts/Message.sol/Message.json";
 
-const messageContractAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
+// Hardhat Contract Addr
+// const messageContractAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
+const messageContractAddress = `${process.env.NEXT_PUBLIC_CONTRACT_ADDR}`;
 
 export default function Home() {
   let [message, setmessage] = useState(""); //get
