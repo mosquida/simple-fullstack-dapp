@@ -1,13 +1,24 @@
-# Sample Hardhat Project
+# dapp-contracts
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates the basic use of Hardhat. It contains a Message Contract with get and set function, a test file for it as well as a deployment script for it,
+
+Contract ABI's are located inside artifacts folders after compiling the contracts for frontend web app dependency.
 
 Try running some of the following tasks:
 
-```shell
-npx hardhat help
+```js
+// Compile solidty contracts, produces an artifacts
+npx hardhat compile
+
+// Run contracts test files
 npx hardhat test
-REPORT_GAS=true npx hardhat test
+
+// Start local blockchain
 npx hardhat node
-npx hardhat run scripts/deploy.js
+
+// Deploy the contracts on local blockchain
+npx hardhat run scripts/deploy.js --network localhost
+
+// Deploy the contracts on mumbai(polygon testnet) blockchain
+npx hardhat run scripts/deploy.js --network mumbai
 ```
