@@ -1,5 +1,7 @@
 # dapp-webapp
 
+This project built with Next.js for frontend consuming and interacting with the functions at the deployed smart contracts on blockchain
+
 To run the development server:
 
 ```bash
