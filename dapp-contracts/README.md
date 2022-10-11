@@ -22,3 +22,7 @@ npx hardhat run scripts/deploy.js --network localhost
 // Deploy the contracts on mumbai(polygon testnet) blockchain
 npx hardhat run scripts/deploy.js --network mumbai
 ```
+
+### Deployed Contract Address
+
+View Message Contract at Polygonscan explorer: [0xf7AC055eA1628c6ACb34753437d364265A017a98](https://mumbai.polygonscan.com/address/0xf7AC055eA1628c6ACb34753437d364265A017a98)
