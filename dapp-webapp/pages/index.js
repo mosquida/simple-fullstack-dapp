@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { ethers } from "ethers";
 
-import Message from "../dapp-contracts/artifacts/contracts/Message.sol/Message.json";
+import Message from "../artifacts/contracts/Message.sol/Message.json";
 
 // Hardhat Contract Addr
 // const messageContractAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
