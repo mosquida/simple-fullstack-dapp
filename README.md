@@ -51,4 +51,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### Deployed App URL
 
-Visit [https://simple-fullstack-dapp-production.up.railway.app/](https://simple-fullstack-dapp-production.up.railway.app/) to test tha app in production
+Visit [https://dapp-web.onrender.com](https://dapp-web.onrender.com) to test tha app in production
